@@ -14,6 +14,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
@@ -70,9 +71,7 @@ height:157px;
     font-family: Light;
     padding-right:20px ;
 }
-.second:hover{
-    color: #ec1d24;
-}
+
 .lan{
     padding-left: 25px;
     color: rgb(255, 17, 0);
@@ -102,12 +101,6 @@ height:157px;
     font-size:16px;
     color: #ffffff;
     cursor: pointer;
-}
-.navItem:hover{
-    color: red;
-}
-.navItem2:hover{
-    color: red;
 }
 .navItem2{
     padding:18px;
@@ -198,6 +191,20 @@ height:157px;
   border-radius: 20px;
   opacity: 1;
 }
+.badge2{
+    position: absolute;
+    font-family: Light;
+    margin-top:10px;
+    margin-left:31%;
+    background-color: #ec1d24;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 50px;
+    line-height: 27px;
+    text-align: center;
+    width:54px;
+    height: 30px;
+}
 .right{
     padding-top: 25px;
     display: flex;
@@ -244,6 +251,7 @@ height:157px;
     border:2px solid #d8caca;
     color: #ec1d24;
 }
+
 .background-3{
     height: 70vh;
     position: relative;
@@ -340,6 +348,9 @@ border:2px solid #d8caca;
 color: #ec1d24;
 
 }
+.viewButton2:hover,.viewButton:hover{
+    border:2px solid #ec1d24;
+}
 .footer{
     display:flex;
     justify-content: center;
@@ -359,6 +370,7 @@ margin-top: 40px;
 justify-content: space-between;
 box-sizing: border-box;
 letter-spacing: normal;
+
 border-bottom: 1px solid black;
 }
 .title2{
@@ -378,6 +390,7 @@ color:#333333;
 letter-spacing:normal;
 width:195px;
 }
+
 .footerText{
     padding-top: 11px;
     padding-bottom: 60px;
@@ -385,7 +398,47 @@ width:195px;
     padding-left:21.5%;
     font-size: 16px;
     text-align:left;
+    cursor:pointer;
     font-family: light;
     color: #999999;
     background-color: #ffffff;
+}
+
+.boxButton:hover{
+background-color: #c31d22;
+}
+.right-text:hover,
+.boxText2:hover,
+.comItem:hover,
+.second:hover,
+.navItem:hover,
+.navItem2:hover,
+.right:hover,
+.boxText:hover{
+color: #ec1d24;
+}
+.arrow{
+position: absolute;
+font-family: Light;
+margin-top:30%;
+text-align: center;
+cursor: pointer;
+text-decoration: none;
+margin-left: 60%;
+}
+#icon{
+    font-size: 26px;
+    border-radius: 50px;
+    border:1px solid #bdbfd4;
+    width: 40px;
+    text-align: center;
+    padding-top: 5px;
+    height:40px;
+}
+a{
+    color: #bdbfd4;
+    text-decoration: none;
+}
+#icon:hover{
+    border:1px solid #ec1d24;
 }
